@@ -18,6 +18,8 @@ The commands are:
 * buy [ID count]
 * delete [ID]
 
+Explanations:
+
 - List command lists all available (not deleted) books in the library.
 - Search command search a book with given book-name, author-name, ISBN number or stock code.
 - Buy command decreases stock count of a book by given count. Returns error if the book is not found or stock is not sufficient for buy operation.

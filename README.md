@@ -9,11 +9,11 @@ Commands are:
 
 Usage:
 
-*go run main.go [arguments]
+* go run main.go [arguments]
 
 The commands are:
 
-*list
-*search [book-name or ISBN or stock-code]
-*buy [ID count]
-*delete [ID]
+* list
+* search [book-name or ISBN or stock-code]
+* buy [ID count]
+* delete [ID]

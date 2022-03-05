@@ -2,8 +2,8 @@
 
 Simple Library Application in Go Language 
 
-** Library is a collection of Book Structs. 
-** Book implements Deletable interface. 
+# Library is a collection of Book Structs. 
+* Book implements Deletable interface. 
 
 Commands are: 
 

@@ -1,6 +1,7 @@
 package library
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -40,6 +41,13 @@ func SearchBooks(searchWord string) {
 			if !found && strings.Contains(strings.ToLower(stockCode), searchWord) {
 				PrintBook(Books[index])
 				aBookFound = true
+				found = true
+			}
+			isbn := fmt.Sprintf("%v", Books[index].ISBN)
+			if !found && strings.Contains(isbn, searchWord) {
+				PrintBook(Books[index])
+				aBookFound = true
+				found = true
 			}
 		}
 	}
